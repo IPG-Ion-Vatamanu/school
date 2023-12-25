@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background-color: #04364A;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.news-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.news-item {
+    border: 1px solid #176B87;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.news-title {
+    color: #176B87
+}
+
+.date {
+    color: #3498db;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.small-image {
+    max-width: 50%;
+    border: 2px solid #3498db;
+}
+
+.read-more {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #DAFFFB;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.4s ease;
+}
+
+nav.sticky {
+    padding: 15px 20px;
+    background: #64CCC5;
+    box-shadow: 0 5px 10px #04364A;
+}
+
+nav .nav-content {
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    font-weight: 500;
+    font-size: 35px;
+    color: #176B87;
+    font-family: Dancing Script;
+}
+
+nav.sticky .logo a {
+    color: #fff;
+}
+
+.nav-content .nav-links {
+    display: flex;
+}
+
+.nav-content .nav-links li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #176B87;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #176B87;
+}
+
+nav.sticky .nav-links li a {
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+nav.sticky .nav-links li a:hover {
+    color: #04364A;
+}
+
+.home {
+    height: 15vh;
+    width: 100%;
+    background: url("images/background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 6px;
+    color: #176B87;
+}
+
+.text {
+    text-align: justify;
+    padding: 40px 80px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.motto {
+    font-size: 60px;
+    font-family: Dancing Script;
+    margin: 20px;
+    text-align: center;
+    padding: 10vh 2vh;
+    color: #04364A;
+    border: solid 5px #176B87;
+}
+
+.logous {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+.txtintroduc {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 4vh;
+    font-size: 20px;
+    color: #176B87;
+    border-top:solid 2px #176B87;
+    padding: 10px;
+}
+
+.logocontact {
+    font-size: 100px;
+    margin: auto 20px;
+}
+
+.aligncenter {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.time {
+    font-family: Dancing Script;
+    color: #04364A;
+    border:dashed 2px #176B87;
+    padding: 2px;
+    font-size: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #176B87; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #64CCC5; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #04364A; 
+  }
+
+  .txtcent {
+    text-align: center;
+    margin: 40px 40px;
+    color: #176B87;
+  }
+  
+  .vid-bg {
+ 
+    padding: 20px 0px;
+  }
+
+  .txtdata {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* E greu :)*/
+  }
+  
+  .img-news {
+    width: 50vh;
+    height: 30vh;
+    border-radius: 2px; /* Corrected syntax for border-radius */
+    border: 2px solid #04364A; /* Corrected syntax for border and added color */
+    margin: 5vh 15vh;
+  }
+  
+  .txt-news {
+    margin: 0;
+  }
+  
+  .newsspan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+  }
+
+  .back-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #176B87;
+}
+
+.small-image2 {
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px; /* Opțional: rotunjirea marginilor */
+    border: 2px solid #3498db; /* Opțional: adăugare contur */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Opțional: adăugare umbră */
+}
+
+.flag-counter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 50px; 
+}
+
+.header, .footer {
+    background-color: #04364A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1, .footer p {
+    margin: 0;
+}
+
+.contest-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.stage-title {
+    width: 100%;
+    text-align: center;
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contest-item {
+    width: calc(50% - 40px); /* 50% din lățimea containerului - spațiu între elemente */
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* pentru a include margin în lățime */
+}
+
+.contest-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contest-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.contest-description {
+    margin-bottom: 10px;
+}
+
+.enter-button {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.header, .footer {
+    background-color: #04364A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1, .footer p {
+    margin: 0;
+}
+
+.projects-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #176B87;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    max-width: calc(33.33% - 10px);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Stiluri generale */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background-color: #04364A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1, .footer p {
+    margin: 0;
+}
+
+.projects-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #176B87;
+}
+
+/* Stiluri pentru proiecte */
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    color: #176B87;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.project-description {
+    margin-top: 15px;
+}
+
+/* Stilizare footer */
+
+.footer {
+    bottom: 0;
+    width: 100%;
+}
