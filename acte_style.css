@@ -1,0 +1,79 @@
+/* Stiluri pentru pagina Acte Normative */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header, .footer {
+    background-color: #04364A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1, .footer p {
+    margin: 0;
+}
+
+.acts-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.act {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.act:hover {
+    transform: scale(1.02);
+}
+
+.act h3 {
+    color: #04364A;
+}
+
+.act img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.act-description {
+    margin-top: 15px;
+    color: #555;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #176B87;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #04364A;
+}

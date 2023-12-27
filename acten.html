@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="acte_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Acte Normative - Școala Noastră</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="index.html">IPG "Ion Vatamanu"</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Acasă <i class="fa-solid fa-house"></i></a></li>
+                <li><a href="desprenoi.html">Despre Noi <i class="fa-solid fa-circle-info"></i></a></li>
+                <li><a href="noutati.html">Noutăți <i class="fa-solid fa-newspaper"></i></a></li>
+                <li><a href="concursuri.html">Concursuri <i class="fa-solid fa-trophy"></i></a></li>
+                <li><a href="proiecte.html">Proiecte <i class="fa-solid fa-diagram-project"></i></a></li>
+                <li><a href="acten.html">Acte Normative <i class="fa-solid fa-book"></i></a></li>
+                <li><a href="contacte.html">Contacte <i class="fa-solid fa-address-book"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="home"></section>
+    <header class="header">
+        <h1>Acte Normative - Școala Noastră</h1>
+    </header>
+
+    <section class="acts-content">
+        <h2>Acte Normative</h2>
+
+        <!-- Act Normativ 1 -->
+        <div class="act">
+            <h3>Legea Educației Naționale</h3>
+            <img src="imagini/legea_educatiei.jpg" alt="Imagine Legea Educației Naționale">
+            <p class="act-description">Legea nr. 1/2011 privind educația națională este principala lege care reglementează sistemul de învățământ din România.</p>
+            <a href="http://legislatie.just.ro/Public/DetaliiDocumentAfis/109083" target="_blank">Detalii și text integral</a>
+        </div>
+
+        <!-- Act Normativ 2 -->
+        <div class="act">
+            <h3>Ordinul Ministerului Educației</h3>
+            <img src="imagini/ordin_minister.jpg" alt="Imagine Ordinul Ministerului Educației">
+            <p class="act-description">Ordinul nr. 1256/2020 stabilește normele de organizare și desfășurare a examenelor naționale pentru elevii din învățământul preuniversitar.</p>
+            <a href="http://www.edu.ro/documente/ordin-mec_nr_1256_15.12.2020.pdf" target="_blank">Detalii și text integral</a>
+        </div>
+
+        <!-- Adaugă mai multe acte normative aici -->
+
+        <!-- Buton Înapoi -->
+        <a href="index.html" class="back-button">&laquo; Înapoi la Pagina Principală</a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Școala Noastră. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        let nav = document.querySelector("nav");
+        window.onscroll = function () {
+            if (document.documentElement.scrollTop > 20) {
+                nav.classList.add("sticky");
+            } else {
+                nav.classList.remove("sticky");
+            }
+        }
+    </script>
+    
+</body>
+</html>

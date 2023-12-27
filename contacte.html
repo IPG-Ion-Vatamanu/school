@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacte_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contacte - Școala Noastră</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Contacte - Școala Noastră</h1>
+    </header>
+
+    <section class="contact-content">
+        <h2>Contactează-ne</h2>
+
+        <div class="contact-info">
+            <p>Pentru orice întrebări sau informații suplimentare, ne poți contacta:</p>
+            <ul>
+                <li>Email: <a href="mailto:contact@scoala-noastra.ro">contact@scoala-noastra.ro</a></li>
+                <li>Telefon: +40 123 456 789</li>
+                <li>Adresă: Strada Principală, Nr. 123, Orașul Tău</li>
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <h3>Trimite-ne un mesaj</h3>
+            <form action="procesare_formular.php" method="post">
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mesaj">Mesaj:</label>
+                <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+        
+                <button type="submit">Trimite</button>
+            </form>
+        </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Școala Noastră. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        let nav = document.querySelector("nav");
+        window.onscroll = function () {
+          if (document.documentElement.scrollTop > 20) {
+            nav.classList.add("sticky");
+          } else {
+            nav.classList.remove("sticky");
+          }
+        }
+      </script>
+</body>
+</html>
